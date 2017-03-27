@@ -9,7 +9,11 @@ names = ['Terrance', 'Leon', 'Erasmo', 'Stephan', 'Frederick', 'Stanford', 'Tobi
 
 #Create a menu with 3 options. For any of this options print something for 'q' quit the menu
 
-
+for name in names:
+   # if name[0] == "A":
+    #    print name
+    if name[1] == 'e' and 'n' in name:
+        print name
 
 
 
