@@ -7,4 +7,7 @@ names = ['Terrance', 'Leon', 'Erasmo', 'Stephan', 'Frederick', 'Stanford', 'Tobi
 #using if , elif, else let the user know if both names, or just one, or no name exist in the list.
 
 
+#Go back to lab4/5 and improve it
+
+
 
