@@ -1,0 +1,146 @@
+#Use dictories and list to get this structure this info
+#Hostname, Model, SN,Ports, slot number, FW, SW, GOLD status
+
+#Check if the same cards in the same slots in all chassis
+
+
+6509A_01#show module
+Mod Ports Card Type                              Model              Serial No.
+--- ----- -------------------------------------- ------------------ -----------
+  1   48  CEF720 48 port 10/100/1000mb Ethernet  WS-X6748-GE-TX     SAL1028V716
+  2   48  CEF720 48 port 10/100/1000mb Ethernet  WS-X6748-GE-TX     SAL1028VAZ9
+  3   24  CEF720 24 port 1000mb SFP              WS-X6724-SFP       SAL10350590
+  5    2  Supervisor Engine 720 (Active)         WS-SUP720-3B       SAL1029VMX6
+  6    2  Supervisor Engine 720 (Hot)            WS-SUP720-3B       SAL1029VH1L
+
+Mod MAC addresses                       Hw    Fw           Sw           Status
+--- ---------------------------------- ------ ------------ ------------ -------
+  1  000a.b807.2e20 to 000a.b807.2e4f   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  2  0017.e079.3014 to 0017.e079.3043   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  3  0018.b9c4.d23c to 0018.b9c4.d253   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  5  0014.a982.3d70 to 0014.a982.3d73   5.2   8.4(2)       12.2(18)SXF1 Ok
+  6  0014.a982.3be0 to 0014.a982.3be3   5.2   8.4(2)       12.2(18)SXF1 Ok
+
+Mod  Sub-Module                  Model              Serial       Hw     Status
+---- --------------------------- ------------------ ----------- ------- -------
+  1  Distributed Forwarding Card WS-F6700-DFC3B     SAL1030W6CR  4.2    Ok
+  2  Distributed Forwarding Card WS-F6700-DFC3B     SAL1033YH1Q  4.2    Ok
+  3  Distributed Forwarding Card WS-F6700-DFC3B     SAL1033YH2G  4.2    Ok
+  5  Policy Feature Card 3       WS-F6K-PFC3B       SAL1029VQF2  2.3    Ok
+  5  MSFC3 Daughterboard         WS-SUP720          SAL1029VNFC  2.5    Ok
+  6  Policy Feature Card 3       WS-F6K-PFC3B       SAL1028V1Y0  2.3    Ok
+  6  MSFC3 Daughterboard         WS-SUP720          SAL1028V3TP  2.5    Ok
+
+Mod  Online Diag Status
+---- -------------------
+  1  Pass
+  2  Pass
+  3  Pass
+  5  Pass
+  6  Pass
+
+6509A_02#show module
+Mod Ports Card Type                              Model              Serial No.
+--- ----- -------------------------------------- ------------------ -----------
+  1   48  CEF720 48 port 10/100/1000mb Ethernet  WS-X6748-GE-TX     SAL1031WWSL
+  2   48  CEF720 48 port 10/100/1000mb Ethernet  WS-X6748-GE-TX     SAL1031WWUU
+  3   24  CEF720 24 port 1000mb SFP              WS-X6724-SFP       SAL1035059X
+  5    2  Supervisor Engine 720 (Active)         WS-SUP720-3B       SAL1029VPXL
+  6    2  Supervisor Engine 720 (Hot)            WS-SUP720-3B       SAL1031WR76
+
+Mod MAC addresses                       Hw    Fw           Sw           Status
+--- ---------------------------------- ------ ------------ ------------ -------
+  1  0018.7354.d370 to 0018.7354.d39f   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  2  000a.b8dd.6920 to 000a.b8dd.694f   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  3  0018.b9c4.d0d4 to 0018.b9c4.d0eb   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  5  0017.5a34.82f8 to 0017.5a34.82fb   5.2   8.4(2)       12.2(18)SXF1 Ok
+  6  0017.9441.8b2c to 0017.9441.8b2f   5.2   8.4(2)       12.2(18)SXF1 Ok
+
+Mod  Sub-Module                  Model              Serial       Hw     Status
+---- --------------------------- ------------------ ----------- ------- -------
+  1  Distributed Forwarding Card WS-F6700-DFC3B     SAL1033YH4B  4.2    Ok
+  2  Distributed Forwarding Card WS-F6700-DFC3B     SAL1033YDTT  4.2    Ok
+  3  Distributed Forwarding Card WS-F6700-DFC3B     SAL1033YH1F  4.2    Ok
+  5  Policy Feature Card 3       WS-F6K-PFC3B       SAL1022Q5LP  2.3    Ok
+  5  MSFC3 Daughterboard         WS-SUP720          SAL1029VPXQ  2.5    Ok
+  6  Policy Feature Card 3       WS-F6K-PFC3B       SAL1031WR4D  2.3    Ok
+  6  MSFC3 Daughterboard         WS-SUP720          SAL1030W9HC  2.5    Ok
+
+Mod  Online Diag Status
+---- -------------------
+  1  Pass
+  2  Pass
+  3  Pass
+  5  Pass
+  6  Pass
+
+C6509B_01#sh module
+Mod Ports Card Type                              Model              Serial No.
+--- ----- -------------------------------------- ------------------ -----------
+  1   48  CEF720 48 port 10/100/1000mb Ethernet  WS-X6748-GE-TX     SAL1029VPN3
+  2   48  CEF720 48 port 10/100/1000mb Ethernet  WS-X6748-GE-TX     SAL1030W7H2
+  3   24  CEF720 24 port 1000mb SFP              WS-X6724-SFP       SAL1031X9KV
+  5    2  Supervisor Engine 720 (Active)         WS-SUP720-3B       SAL1031WXC3
+  6    2  Supervisor Engine 720 (Hot)            WS-SUP720-3B       SAL1033XXZ5
+
+Mod MAC addresses                       Hw    Fw           Sw           Status
+--- ---------------------------------- ------ ------------ ------------ -------
+  1  0018.18c6.da20 to 0018.18c6.da4f   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  2  0018.b98d.2768 to 0018.b98d.2797   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  3  0018.b988.3b00 to 0018.b988.3b17   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  5  0016.c847.b140 to 0016.c847.b143   5.2   8.4(2)       12.2(18)SXF1 Ok
+  6  0016.9df6.93a0 to 0016.9df6.93a3   5.2   8.4(2)       12.2(18)SXF1 Ok
+
+Mod  Sub-Module                  Model              Serial       Hw     Status
+---- --------------------------- ------------------ ----------- ------- -------
+  1  Distributed Forwarding Card WS-F6700-DFC3B     SAL1029VYBP  4.2    Ok
+  2  Distributed Forwarding Card WS-F6700-DFC3B     SAL1026TDR4  4.2    Ok
+  3  Distributed Forwarding Card WS-F6700-DFC3B     SAL1019MTW5  4.2    Ok
+  5  Policy Feature Card 3       WS-F6K-PFC3B       SAL1027UC9C  2.3    Ok
+  5  MSFC3 Daughterboard         WS-SUP720          SAL1031WVNL  2.5    Ok
+  6  Policy Feature Card 3       WS-F6K-PFC3B       SAL1032XTZ5  2.3    Ok
+  6  MSFC3 Daughterboard         WS-SUP720          SAL1033XVUH  2.5    Ok
+
+Mod  Online Diag Status
+---- -------------------
+  1  Pass
+  2  Pass
+  3  Pass
+  5  Pass
+  6  Pass
+
+C6509B_02#show module
+Mod Ports Card Type                              Model              Serial No.
+--- ----- -------------------------------------- ------------------ -----------
+  1   48  CEF720 48 port 10/100/1000mb Ethernet  WS-X6748-GE-TX     SAL1031WWTF
+  2   48  CEF720 48 port 10/100/1000mb Ethernet  WS-X6748-GE-TX     SAL1031WR9A
+  3   24  CEF720 24 port 1000mb SFP              WS-X6724-SFP       SAL10350464
+  5    2  Supervisor Engine 720 (Active)         WS-SUP720-3B       SAL1032XQNK
+  6    2  Supervisor Engine 720 (Hot)            WS-SUP720-3B       SAL1033XY2F
+
+Mod MAC addresses                       Hw    Fw           Sw           Status
+--- ---------------------------------- ------ ------------ ------------ -------
+  1  0018.7354.ce30 to 0018.7354.ce5f   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  2  000a.b8a5.e5e0 to 000a.b8a5.e60f   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  3  0018.ba04.5d44 to 0018.ba04.5d5b   2.4   12.2(14r)S5  12.2(18)SXF1 Ok
+  5  0017.5a34.9cf0 to 0017.5a34.9cf3   5.2   8.4(2)       12.2(18)SXF1 Ok
+  6  0016.9df6.9394 to 0016.9df6.9397   5.2   8.4(2)       12.2(18)SXF1 Ok
+
+Mod  Sub-Module                  Model              Serial       Hw     Status
+---- --------------------------- ------------------ ----------- ------- -------
+  1  Distributed Forwarding Card WS-F6700-DFC3B     SAL1033YGYC  4.2    Ok
+  2  Distributed Forwarding Card WS-F6700-DFC3B     SAL1033YGZS  4.2    Ok
+  3  Distributed Forwarding Card WS-F6700-DFC3B     SAL1033YH08  4.2    Ok
+  5  Policy Feature Card 3       WS-F6K-PFC3B       SAL1032XR3R  2.3    Ok
+  5  MSFC3 Daughterboard         WS-SUP720          SAL1032XQWA  2.5    Ok
+  6  Policy Feature Card 3       WS-F6K-PFC3B       SAL1032XFUT  2.3    Ok
+  6  MSFC3 Daughterboard         WS-SUP720          SAL1033XW5A  2.5    Ok
+
+Mod  Online Diag Status
+---- -------------------
+  1  Pass
+  2  Pass
+  3  Pass
+  5  Pass
+  6  Pass
+
